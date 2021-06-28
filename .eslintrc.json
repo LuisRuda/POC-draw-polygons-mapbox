@@ -1,0 +1,69 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier", "react-hooks", "@typescript-eslint"],
+  "rules": {
+    "no-plusplus": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+    "import/prefer-default-export": "off",
+    "react/jsx-curly-newline": "off",
+    "camelcase": "off",
+    "react/prop-types": "off",
+    "no-use-before-define": "off",
+    "no-nested-ternary": "off",
+    "react/jsx-wrap-multilines": "off",
+    "react/jsx-props-no-spreading": "off",
+    "@typescript-eslint/ban-types": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/destructuring-assignment": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "no-restricted-syntax": "off",
+    "no-param-reassign": "off",
+    "import/no-extraneous-dependencies": "off",
+    "no-shadow": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "import/no-duplicates": "off",
+    "prettier/prettier": "error",
+    "import/no-self-import": "off",
+    "import/no-cycle": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off",
+    "import/order": "off",
+    "no-bitwise": "off",
+    "import/no-useless-path-segments": "off",
+    "no-template-curly-in-string": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "new-cap": "off",
+    "import/named": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}
