@@ -2,7 +2,7 @@
 
 ##### Instructions:
 
-- Crie um arquivo .env e adicione seu token do MAPBOX\*
+- Create an .env file and add your MAPBOX token
 
 ###### GeoJson File Example
 
