@@ -1,5 +1,7 @@
 # POC - Draw polygons on the map and upload kml files
 
+![alt text](https://github.com/LuisRuda/POC-draw-polygons-mapbox/blob/master/draw-polygons-area.png?raw=true)
+
 ##### Instructions:
 
 - Create an .env file and add your MAPBOX token
